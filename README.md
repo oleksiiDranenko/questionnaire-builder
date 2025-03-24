@@ -1,54 +1,59 @@
-Deployed app: questionnaire-builder-j0pan7mgn-oleksiis-projects-fd6d492c.vercel.app
+## Deployed App
+[Deployed app](https://questionnaire-builder-j0pan7mgn-oleksiis-projects-fd6d492c.vercel.app)
 
-I have completed everything from the Base and Middle level (sorry i have 'drag and drop' only for the questions) and Infinite scroll paganation and General statistics ftom the Advanced level.
+I have completed everything from the **Base** and **Middle** levels (sorry, I have 'drag and drop' only for the questions) and **Infinite scroll pagination** and **General statistics** from the **Advanced** level.
 
+---
 
-Base level:
+## Base Level:
+### Questionnaire Catalog Page
+A page where users can observe the paginated list of available questionnaires. Each card consists of:
+- Questionnaire name  
+- Description  
+- Number of questions  
+- Number of completions  
+- Actions: **Edit / Run / Delete**
 
-Questionnaire catalog page: page where users can observe the paginated list of
-available questionnaires. Card should consist of:
-- questionnaire name;
-- description;
-- amount of questions;
-- amount of completions;
-- actions: edit/run/delete
-
-Questionnaire builder page: page where users can create a questionnaire by adding
-multiple questions.
+### Questionnaire Builder Page
+A page where users can create a questionnaire by adding multiple questions.  
 Possible question types:
-- text - free-form user input;
-- single choice - user can select only one of the possible answers;
-- multiple choices - user can select several answers 
+- **Text** – Free-form user input  
+- **Single Choice** – User can select only one of the possible answers  
+- **Multiple Choices** – User can select several answers  
 
-Interactive questionnaire page: page where users can complete the questionnaire
-created earlier. At the end of the questionnaire the user can see all his answers and
-the time it took to complete the questionnaire. Once the questionnaire is completed,
-responses are stored in the database. This page is available by clicking
-on the “Run Quiz” button
+### Interactive Questionnaire Page
+A page where users can complete a questionnaire created earlier. At the end, the user can:
+- See all their answers  
+- View the time it took to complete the questionnaire  
+- Submit their responses, which are then stored in the database  
+- This page is accessible via the **"Run Quiz"** button  
 
+---
 
+## Middle Level:
+### Questionnaire Catalog Page
+- Ability to sort questionnaires by:  
+  - Name  
+  - Number of questions  
+  - Number of completions  
 
-Middle level:
+### Questionnaire Builder Page
+- **Drag and Drop** functionality: Allows users to reorder questions by dragging them  
 
-Questionnaire catalog page: ability to sort questionnaires by: name, amount of
-questions, amount of completions.
+### Interactive Questionnaire Page
+- Saves intermediate completion state  
+- If the user refreshes the page, they can continue from where they left off  
 
-Questionnaire builder page: has “drag and drop” functionality to allow user to
-re-order questions by dragging them;
+---
 
-Interactive questionnaire page: saves intermediate completion state so that when the
-user refreshes the page he can continue from where he left.
+## Advanced Level:
+### Questionnaire Catalog Page
+- **Infinite Scroll Pagination**  
+  - When a user scrolls down, more questionnaires load automatically  
+  - I have added a **button** to toggle **infinite scroll pagination**  
 
-
-
-
-Advanced level:
-
-Questionnaire catalog page: infinite scroll pagination (when a user scrolls the
-page, it automatically loads more questionnaires). i have added a button to turn on the infinite scroll paganation functionality
-
-Questionnaire statistics page: a page is displaying general statistics for the
-questionnaire:
-- average completion time;
-- amount of completions per day (bar chart);
-- average amount of correct answers
+### Questionnaire Statistics Page
+- A page displaying **general statistics** for the questionnaire:
+  - **Average completion time**  
+  - **Number of completions per day** (**Bar chart**)  
+  - **Average number of correct answers**  
