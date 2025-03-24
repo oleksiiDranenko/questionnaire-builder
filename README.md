@@ -1,4 +1,4 @@
-## Deployed App
+## Questionaire Builder App
 [Deployed app](https://questionnaire-builder-j0pan7mgn-oleksiis-projects-fd6d492c.vercel.app)
 
 I have used Next.js for the front end (client folder) and Node.js with Express and Mongoose for the back end (server folder). MongoDB serves as a database
