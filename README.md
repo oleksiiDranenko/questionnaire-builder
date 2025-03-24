@@ -1,6 +1,8 @@
 ## Deployed App
 [Deployed app](https://questionnaire-builder-j0pan7mgn-oleksiis-projects-fd6d492c.vercel.app)
 
+I have used Next.js for the front end (client folder) and Node.js with Express and Mongoose for the back end (server folder). MongoDB serves as a database
+
 I have completed everything from the **Base** and **Middle** levels (sorry, I have 'drag and drop' only for the questions) and **Infinite scroll pagination** and **General statistics** from the **Advanced** level.
 
 ---
